@@ -13,6 +13,9 @@ public:
 	Goods(string name);
 
 	string getName() const;
-	void setName(string name)const;
+	void setName(string name);
+
+	void show()const;
+
 };
 

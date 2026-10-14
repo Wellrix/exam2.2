@@ -144,12 +144,14 @@
     <ClCompile Include="Goods.cpp" />
     <ClCompile Include="Product.cpp" />
     <ClCompile Include="Radio.cpp" />
+    <ClCompile Include="Transistor.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Dairy.h" />
     <ClInclude Include="Goods.h" />
     <ClInclude Include="Product.h" />
     <ClInclude Include="Radio.h" />
+    <ClInclude Include="Transistor.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

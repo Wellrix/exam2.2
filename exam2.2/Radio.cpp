@@ -2,21 +2,26 @@
 
 Radio::Radio()
 {
+    purpose = "undefined";
 }
 
 Radio::Radio(string name, string purpose)
 {
+    this->purpose = purpose;
 }
 
 string Radio::getPurpose() const
 {
-    return string();
+    return purpose;
 }
 
 void Radio::setPurpose(string purpose)
 {
+    this->purpose = purpose;
 }
 
 void Radio::show() const
 {
+    Goods::show();
+    cout << "Purpose: " << purpose << endl;
 }

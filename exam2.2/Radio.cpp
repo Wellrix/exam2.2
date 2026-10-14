@@ -5,7 +5,7 @@ Radio::Radio()
     purpose = "undefined";
 }
 
-Radio::Radio(string name, string purpose)
+Radio::Radio(string name, string purpose) : Goods(name)
 {
     this->purpose = purpose;
 }
